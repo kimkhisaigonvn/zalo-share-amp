@@ -17,7 +17,9 @@ var url = false;
 url = getQueryVariable("url");
 (function() {
     var d = document, s = d.createElement('span');
-    s.setAttribute('class', 'zalo-share-button');
+    s.setAttribute('class', 'zalo-share-button inline-block');
+    s.setAttribute('width', '20');
+    s.setAttribute('height', '20');
     s.setAttribute('data-oaid', '3647788090838421038');
     s.setAttribute('data-layout', '2');
     s.setAttribute('data-color', 'blue');
